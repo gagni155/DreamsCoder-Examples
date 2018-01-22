@@ -16,7 +16,7 @@ CAPTCHA demo, Google CAPTCHA, CAPTCHA LiveDemo, dreamscoder.com,dreamscoder">
 <form action="" method="post">
 Name : <input type="text" name="name"><br>
 City : <input type="text" name="city"><br><br>
-<div class="g-recaptcha" data-sitekey="***** YOUR SITE KEY goes here *****"></div>
+<div class="g-recaptcha" data-sitekey="6Lcz9kEUAAAAAM7CDDIsQegVVX66dW2HfkgjT7kg"></div>
 <input type="submit" name="submit" value="submit">
 
 </form>
@@ -29,7 +29,7 @@ if(isset($_POST['submit']))
 function CheckCaptcha($userResponse) {
         $fields_string = '';
         $fields = array(
-            'secret' => '****** YOUR SECRET KEY goes here ******',
+            'secret' => '6Lcz9kEUAAAAAMqohHSIk8ThpZzeZJrgNNnD6Ktx',
             'response' => $userResponse
         );
         foreach($fields as $key=>$value)
